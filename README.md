@@ -47,6 +47,8 @@ lib/
         task_model_test.dart
     utils/
         validators.dart
+    config/
+        supabase_config_example.dart
     
 ##  Setup Instructions
 
@@ -55,10 +57,11 @@ lib/
     cd mini_taskhub
 3. Install dependencies:
     flutter pub get
-4. Add your Supabase credentials in `main.dart`:
+4. Add your Supabase credentials in `supabase_config_example.dart`:
     - Project URL
     - Anon Key
-5. Run the app:
+5.Rename it to 'supabase_config'
+6. Run the app:
     flutter run
 
 
